@@ -1,3 +1,0 @@
-var names = document.getElementsByClassName("col-sm-6 lbl-licitacao");                                                  for(i=0;i<names.length;i++){
-    console.log(names[i].innerText);
-}
