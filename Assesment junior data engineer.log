@@ -1,0 +1,52 @@
+var w1 = document.getElementsByClassName("col-sm-6 lbl-licitacao"); 
+ 
+var w2 = document.getElementsByClassName("col-sm-6 lbl-licitacao"); 
+ 
+var w3 = document.querySelector('span[class="field-content"] >p >font >font').innerText
+ 
+console.log(w3);
+VM33937:1 Price Registration for a period of 12 months, for the purchase of galvanized clamps.
+ 
+console.log(w3[0].innerText);console.log(w3);
+VM33985:1  
+VM33985:1 Price Registration for a period of 12 months, for the purchase of galvanized clamps.
+ 
+console.log(w1[0].innerText);console.log(w3);
+VM33999:1 PUBLICATION DATE: 02/02/2021
+VM33999:1 Price Registration for a period of 12 months, for the purchase of galvanized clamps.
+ 
+var w4 = document.querySelector('div[class="field field--name-field-icone field--type-image field--label-hidden field__item"] >a').href
+ 
+var w42 = document.getElementsByClassName("field field--name-field-icone field--type-image field--label-hidden field__item");  
+ 
+console.log(w1[0].innerText);console.log(w2[3].innerText);console.log(w3);console.log(w4);
+VM34092:1 PUBLICATION DATE: 02/02/2021
+VM34092:1 BIDDING DATE: 02/18/2021
+VM34092:1 Price Registration for a period of 12 months, for the purchase of galvanized clamps.
+
+for(i=0;i<w42.length;i++){
+    console.log(w42[i].innerHTML);
+}
+VM34194:2  <a href="http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DetalheArtigo&amp;pk=1235349" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34194:2  <img src="/sites/default/files/imagens/%C3%8Dcones/nenhum-icon.png" width="54" height="25" alt="" typeof="foaf:Image">
+VM34194:2  <a href="http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DetalheArtigo&amp;pk=1239614" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34194:2  <a href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/pe151.2020_editalfinal_0.pdf" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_pdf_mini.gif" width="34" height="34" alt="Download the file" title="Download the file" typeof="Image"></a>
+VM34194:2  <a href="https://www.licitacoes-e.com.br/aop/consultar-detalhes-licitacao.aop?numeroLicitacao=852045&amp;opcao=consultarDetalhesLicitacao" target="_blank" rel="noopener"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34194:2  <img src="/sites/default/files/imagens/%C3%8Dcones/nenhum-icon.png" width="54" height="25" alt="" typeof="foaf:Image">
+VM34194:2  <a href="http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DetalheArtigo&amp;pk=1241350" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34194:2  <a href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/pe151.20_ata_licitacao.pdf" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_pdf_mini.gif" width="34" height="34" alt="Download the file" title="Download the file" typeof="Image"></a>
+ 
+
+
+for(i=0;i<w42.length;i++){
+    console.log("All link : "+w42[i].innerHTML);
+}
+VM34215:2 All link :  <a href="http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DetalheArtigo&amp;pk=1235349" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34215:2 All link :  <img src="/sites/default/files/imagens/%C3%8Dcones/nenhum-icon.png" width="54" height="25" alt="" typeof="foaf:Image">
+VM34215:2 All link :  <a href="http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DetalheArtigo&amp;pk=1239614" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34215:2 All link :  <a href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/pe151.2020_editalfinal_0.pdf" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_pdf_mini.gif" width="34" height="34" alt="Download the file" title="Download the file" typeof="Image"></a>
+VM34215:2 All link :  <a href="https://www.licitacoes-e.com.br/aop/consultar-detalhes-licitacao.aop?numeroLicitacao=852045&amp;opcao=consultarDetalhesLicitacao" target="_blank" rel="noopener"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34215:2 All link :  <img src="/sites/default/files/imagens/%C3%8Dcones/nenhum-icon.png" width="54" height="25" alt="" typeof="foaf:Image">
+VM34215:2 All link :  <a href="http://portal6.pbh.gov.br/dom/iniciaEdicao.do?method=DetalheArtigo&amp;pk=1241350" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_link_dom.gif" width="23" height="15" alt="Access information" title="Access information" typeof="Image"></a>
+VM34215:2 All link :  <a href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/pe151.20_ata_licitacao.pdf" target="_blank"><img src="/sites/default/files/imagens/%C3%8Dcones/ico_pdf_mini.gif" width="34" height="34" alt="Download the file" title="Download the file" typeof="Image"></a>
+ 
